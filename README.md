@@ -2,8 +2,6 @@
 
 Extensão que criei pela ideia de um amigo com o objetivo de otimizar o jeito com que se baixa arquivos de determinadas tarefas no Google Classroom.
 
-<br>
-
 ## Como instalar
 
 Com os arquivos do diretório baixados em uma pasta, acesse [chrome://extensions/](chrome://extensions/), habilite o modo desenvolvedor, clique em "Carregar sem compactação", selecione a pasta da extensão baixada, e ative a extensão na lista.
