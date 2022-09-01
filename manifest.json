@@ -1,0 +1,32 @@
+{
+	"manifest_version": 3,
+	"name": "Classworks Downloader",
+	"version": "1.0.0",
+	"icons": {
+		"16": "./16.png",
+		"48": "./48.png",
+		"128": "./128.png"
+	},
+	"permissions": ["storage"],
+	"externally_connectable": {
+		"matches": ["https://classroom.google.com/*"]
+	},
+	"content_scripts": [
+		{
+			"matches": ["https://classroom.google.com/*"],
+			"js": ["content.js"]
+		}
+	],
+	"background": {
+    "service_worker": "background.js"
+  },
+	"action": {
+		"default_icon": {
+			"16": "./16.png",
+			"48": "./48.png",
+			"128": "./128.png"
+		},
+		"default_title": "Click to view Classworks Downloader interface",
+		"default_popup": "popup/index.html"
+	}
+}
