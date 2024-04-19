@@ -1,4 +1,5 @@
 # Classworks Downloader
+*Utilizando Javascript puro*
 
 Extensão que criei pela ideia de um amigo com o objetivo de otimizar o jeito com que se baixa arquivos de determinadas tarefas no Google Classroom.
 
